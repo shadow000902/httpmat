@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+    <postparams value="{'a':'b'}">post 请求参数</postparams> <!--post 请求参数 -->
+    <ytitle value=" responseTime">响应时间</ytitle> <!--适用于曲线 -->
+    <xtitle value="requestCount">请求数量个</xtitle> <!--适用于曲线 -->
+    <title value="login">接口名称</title>
+    <count value="50">请求总数</count>>
+    <baseurl value="119.X">请求的host</baseurl>
+    <httpapi value="//qixun/index.php/QiXunManager/Interface/UserLogin?userName=ywy002&amp;password=123456&amp;token=abc123">请求url</httpapi>
+    <method value="GET">请求方法</method>
+    <mat value="pie">pie饼形 ,bar柱形,plot曲线</mat> 
+    <xlim value="100"> 曲线设置横x轴的上下限.请求次数</xlim>
+    <ylim value="3">曲线设置横y轴的上下限,相应时间</ylim>
+	<port value="0">主机接口没有默认填0</port>
+ </root>
+
+
